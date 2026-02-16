@@ -867,3 +867,113 @@ If you swapped original and translation, would someone notice it's the "wrong" w
 
 ---
 
+
+---
+
+# Russian Translation Examples (English-Russian)
+
+## Example 1: Marketing Copy (English-Russian)
+
+### Original Text
+```
+"Stop leaving money on the table. Our AI-powered tool finds hidden revenue opportunities your competitors are missing."
+```
+
+### ✅ Translation
+```
+"Не оставляйте деньги на столе. Наш инструмент ИИ находит скрытые возможности доходов, которые ваши конкуренты упускают."
+```
+
+**Russian Grammar - Case System in Action:**
+- "Не оставляйте" = Imperfective imperative (ВЫ formal)
+- "на столе" = Prepositional case (location)
+- "возможности доходов" = Genitive plural (possession)
+- "конкуренты упускают" = Nominative (subject/verb)
+
+### Quality Check ✓
+- [x] 6-case system: Correct throughout
+- [x] Aspect: Imperfective (ongoing)
+- [x] Formality: ВЫ (professional)
+- [x] Meaning: 100% preserved
+- [x] Reads naturally in Russian
+
+---
+
+## Example 2: Technical Documentation (English-Russian)
+
+### Original Text
+```
+"To configure the webhook, navigate to Settings > Integrations > Webhooks. Click 'Add New Webhook' and paste your endpoint URL."
+```
+
+### ✅ Translation
+```
+"Для настройки вебхука перейдите в Параметры > Интеграции > Вебхуки. Нажмите 'Добавить новый вебхук' и вставьте ваш URL конечной точки."
+```
+
+**Russian Grammar - Complex Cases:**
+- "Для настройки" = Genitive (для + genitive for purpose)
+- "перейдите в Параметры" = Perfective imperative + accusative (into)
+- "конечной точки" = Genitive singular feminine (possession)
+
+### Quality Check ✓
+- [x] Case system: All 6 cases handled
+- [x] Aspect: All perfective (complete actions)
+- [x] Technical accuracy: 100%
+- [x] Preposition+case rules: Perfect
+
+---
+
+## Example 3: Casual/Blog Writing (English-Russian)
+
+### Original Text
+```
+"Look, I get it. You've tried everything. The diets, the apps, the 5 AM workouts that lasted exactly three days."
+```
+
+### ✅ Translation
+```
+"Слушай, я понимаю. Ты попробовал всё. Диеты, приложения, тренировки в 5 утра, которые длились ровно три дня."
+```
+
+**Russian Grammar - Gender & Aspect:**
+- "попробовал" = Perfective past masculine (completed action)
+- "в 5 утра" = Prepositional with в (time expression)
+- "три дня" = Accusative (accusative with numbers 2-4)
+
+### Quality Check ✓
+- [x] Formality: ТЫ (casual, friendly)
+- [x] Aspect: Mix of perfective/imperfective (natural)
+- [x] Gender: Past tense shows masculine (попробовал)
+- [x] Humor: 3-day exaggeration works perfectly
+- [x] Cases: All correct throughout
+
+---
+
+## Example 4: Humor & Irony (English-Russian)
+
+### Original Text
+```
+"'Just one more episode' I said, 4 hours ago, as I started my 47th rewatch of The Office."
+```
+
+### ✅ Translation
+```
+"'Ещё один эпизод', сказал я 4 часа назад, начиная свой 47-й просмотр The Office."
+```
+
+**Russian Grammar - Advanced Cases:**
+- "сказал я" = Perfective past masculine (specific moment)
+- "4 часа назад" = Accusative (numbers 2-4 rule)
+- "47-й просмотр" = Nominative ordinal adjective
+- "свой" = Possessive reflexive (agrees with masculine)
+
+### Quality Check ✓
+- [x] Case system: Complex number rules applied
+- [x] Aspect: Perfective (narrative past)
+- [x] Gender: Masculine shown in past tense
+- [x] Ordinal numbers: "47-й" properly declined
+- [x] Irony: 1 episode claimed → 47 watches (hilarious!)
+
+---
+
