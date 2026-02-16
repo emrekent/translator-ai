@@ -659,3 +659,211 @@ If you swapped original and translation, would someone notice it's the "wrong" w
 
 ---
 
+---
+
+# Portuguese Translation Examples (English-Portuguese)
+
+## Example 1: Marketing Copy (English-Portuguese)
+
+### Original Text
+```
+"Stop leaving money on the table. Our AI-powered tool finds hidden revenue opportunities your competitors are missing."
+```
+
+### ✅ Translation
+```
+"Não deixe dinheiro na mesa. Nossa solução de IA encontra oportunidades de receita que seus concorrentes não veem."
+```
+
+**Translation Decisions:**
+- "Stop leaving" → "Não deixe" (imperative, formal você)
+- "AI-powered" → "solução de IA" (natural in Portuguese)
+- Idiom works: "dinheiro na mesa" (Portuguese has same idiom!)
+- Register: Formal você form
+
+### Quality Check ✓
+- [x] Meaning preserved (100%)
+- [x] Tone: Urgent, competitive
+- [x] Idiom works naturally
+- [x] Professional register (você)
+
+---
+
+## Example 2: Technical Documentation (English-Portuguese)
+
+### Original Text
+```
+"To configure the webhook, navigate to Settings > Integrations > Webhooks. Click 'Add New Webhook' and paste your endpoint URL."
+```
+
+### ✅ Translation
+```
+"Para configurar o webhook, acesse Configurações > Integrações > Webhooks. Clique em 'Adicionar novo webhook' e cole sua URL de endpoint."
+```
+
+**Translation Decisions:**
+- "Navigate" → "acesse" (formal você)
+- "Settings" → "Configurações" (standard Portuguese UI)
+- "Click" → "Clique" (você form)
+- Format preserved: Menu paths exact
+
+### Quality Check ✓
+- [x] Technical accuracy (100%)
+- [x] Format preserved
+- [x] Proper formal register
+
+---
+
+## Example 3: Casual/Blog Writing (English-Portuguese)
+
+### Original Text
+```
+"Look, I get it. You've tried everything. The diets, the apps, the 5 AM workouts that lasted exactly three days."
+```
+
+### ✅ Translation
+```
+"Olha, eu entendo. Você tentou tudo. As dietas, os apps, os treinos de 5 da manhã que duraram exatamente três dias."
+```
+
+**Translation Decisions:**
+- "Look" → "Olha" (informal, conversational)
+- Informal você form (natural in Brazilian Portuguese casual context)
+- Tone: Friendly, understanding
+
+### Quality Check ✓
+- [x] Tone preserved (friendly)
+- [x] Informality maintained
+- [x] Humor intact (3-day exaggeration)
+
+---
+
+## Example 4: Humor & Irony (English-Portuguese)
+
+### Original Text
+```
+"'Just one more episode' I said, 4 hours ago, as I started my 47th rewatch of The Office."
+```
+
+### ✅ Translation
+```
+"'Só mais um episódio', disse eu 4 horas atrás, enquanto começava minha 47ª vez assistindo The Office."
+```
+
+**Translation Decisions:**
+- Quote: "Só mais um episódio" (natural Portuguese)
+- Time: "4 horas atrás" (natural)
+- 47th: "47ª vez" (47th time)
+- Irony: 1 episode claimed → 47 watches reality
+
+### Quality Check ✓
+- [x] Irony preserved (1 vs 47)
+- [x] Humor maintained
+- [x] Meaning 100% preserved
+
+---
+
+---
+
+# Italian Translation Examples (English-Italian)
+
+## Example 1: Marketing Copy (English-Italian)
+
+### Original Text
+```
+"Stop leaving money on the table. Our AI-powered tool finds hidden revenue opportunities your competitors are missing."
+```
+
+### ✅ Translation
+```
+"Non lasciate soldi sul tavolo. Il nostro strumento AI scopre opportunità di ricavo che i vostri concorrenti non vedono."
+```
+
+**Translation Decisions:**
+- "Stop leaving" → "Non lasciate" (imperative, formal voi)
+- "AI-powered" → "strumento AI" (modern, natural)
+- Idiom: "soldi sul tavolo" (Italian has same idiom!)
+- Register: Formal voi form
+
+### Quality Check ✓
+- [x] Meaning preserved (100%)
+- [x] Tone: Urgent, competitive
+- [x] Idiom works naturally
+- [x] Professional register (voi)
+
+---
+
+## Example 2: Technical Documentation (English-Italian)
+
+### Original Text
+```
+"To configure the webhook, navigate to Settings > Integrations > Webhooks. Click 'Add New Webhook' and paste your endpoint URL."
+```
+
+### ✅ Translation
+```
+"Per configurare il webhook, navigate su Impostazioni > Integrazioni > Webhooks. Fate clic su 'Aggiungi nuovo webhook' e incollate il vostro URL endpoint."
+```
+
+**Translation Decisions:**
+- "Navigate" → "navigate su" (formal voi)
+- "Settings" → "Impostazioni" (standard Italian UI)
+- "Click" → "Fate clic" (voi form)
+- Article complexity: "il" vs "lo" handled correctly
+
+### Quality Check ✓
+- [x] Technical accuracy (100%)
+- [x] Article agreement perfect
+- [x] Proper formal register
+
+---
+
+## Example 3: Casual/Blog Writing (English-Italian)
+
+### Original Text
+```
+"Look, I get it. You've tried everything. The diets, the apps, the 5 AM workouts that lasted exactly three days."
+```
+
+### ✅ Translation
+```
+"Ascolta, lo capisco. Hai provato tutto. Le diete, le app, gli allenamenti alle 5 del mattino che sono durati esattamente tre giorni."
+```
+
+**Translation Decisions:**
+- "Look" → "Ascolta" (informal tu form)
+- Informal tu (conversational, casual)
+- Gender agreement: "gli allenamenti" (masculine plural)
+
+### Quality Check ✓
+- [x] Tone preserved (friendly)
+- [x] Informality maintained (tu form)
+- [x] Gender agreement correct
+
+---
+
+## Example 4: Humor & Irony (English-Italian)
+
+### Original Text
+```
+"'Just one more episode' I said, 4 hours ago, as I started my 47th rewatch of The Office."
+```
+
+### ✅ Translation
+```
+"'Solo un episodio in più', ho detto 4 ore fa, mentre iniziavo il mio 47esimo rewatch di The Office."
+```
+
+**Translation Decisions:**
+- Quote: "Solo un episodio in più" (natural Italian)
+- 47th: "47esimo" (Italian superlative form)
+- Time: "4 ore fa" (natural)
+- Irony preserved: 1 episode claimed → 47 watches reality
+
+### Quality Check ✓
+- [x] Irony preserved (1 vs 47)
+- [x] Humor maintained
+- [x] Meaning 100% preserved
+
+---
+

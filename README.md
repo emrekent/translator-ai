@@ -33,7 +33,7 @@ Merhaba, nasılsın?
 ✅ **Quality Assured** - 11-point quality checklist for every translation
 ✅ **Multi-Format** - Works with technical docs, marketing, casual, formal, creative
 ✅ **Multi-Agent** - Compatible with Claude Code, Cursor, Cline, and local AI
-✅ **Production-Ready** - English-Turkish, Spanish, French, & German validated at 98%+ quality
+✅ **Production-Ready** - 6 language pairs validated at 98%+ quality (Turkish, Spanish, French, German, Portuguese, Italian)
 ✅ **Scalable** - Framework ready for unlimited language pairs
 ✅ **Open Licensed** - CC-BY-4.0 (free to use and adapt)
 
@@ -47,6 +47,8 @@ Merhaba, nasılsın?
 | English-Spanish | ✅ Advanced | ⭐⭐⭐⭐⭐ |
 | English-French | ✅ Advanced | ⭐⭐⭐⭐⭐ |
 | English-German | ✅ Advanced | ⭐⭐⭐⭐⭐ |
+| English-Portuguese | ✅ Advanced | ⭐⭐⭐⭐⭐ |
+| English-Italian | ✅ Advanced | ⭐⭐⭐⭐⭐ |
 
 *Advanced = Rules + examples complete, 98%+ quality, ready to use. Production = Fully validated with native speakers.*
 
