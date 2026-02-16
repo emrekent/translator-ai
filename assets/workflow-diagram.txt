@@ -1,0 +1,263 @@
+TRANSLATOR-AI SKILL WORKFLOW
+=============================
+
+This diagram shows the complete translation workflow implemented in the translator-ai skill.
+
+┌─────────────────────────────────────────────────────────────────────┐
+│                         TRANSLATION WORKFLOW                        │
+└─────────────────────────────────────────────────────────────────────┘
+
+STEP 1: UNDERSTAND THE TEXT
+───────────────────────────
+    │
+    ├─→ Read the entire text completely
+    ├─→ Understand context and purpose
+    ├─→ Identify audience and expectations
+    └─→ Note emotional tone and intent
+         │
+         ↓
+
+STEP 2: CLASSIFY TEXT TYPE
+──────────────────────────
+    │
+    ├─→ Technical/Educational?
+    │   (documentation, how-to, tutorial)
+    │
+    ├─→ Marketing/Persuasive?
+    │   (sales, ads, landing page)
+    │
+    ├─→ Casual/Personal?
+    │   (blog, personal writing, story)
+    │
+    ├─→ Formal/Corporate?
+    │   (legal, business communication)
+    │
+    └─→ Creative/Entertainment?
+        (humor, irony, creative content)
+         │
+         ↓
+
+STEP 3: SELECT LANGUAGE PAIR & LOAD RULES
+──────────────────────────────────────────
+    │
+    ├─→ Choose target language
+    │   (English-Turkish, Spanish, French, etc.)
+    │
+    ├─→ Load rules from references/translation-rules.md
+    │   ├─ Primary rules (6 core)
+    │   └─ Secondary rules (4 flexible)
+    │
+    ├─→ Review language-pair specific guidance
+    │   ├─ Grammar rules
+    │   ├─ Formality system (sen/siz, tú/usted, etc.)
+    │   └─ Common idioms
+    │
+    └─→ Check special cases (references/special-cases.md)
+         └─ Idioms? Cultural refs? Numbers? Humor?
+            │
+            ↓
+
+STEP 4: DECIDE FORMALITY & APPROACH
+────────────────────────────────────
+    │
+    ├─→ Formal or informal?
+    │   ├─ FORMAL: "siz" (Turkish), "usted" (Spanish), "vous" (French)
+    │   └─ INFORMAL: "sen" (Turkish), "tú" (Spanish), "tu" (French)
+    │
+    ├─→ Pick ONE and commit to it
+    │   (mixing formality levels = jarring for reader)
+    │
+    └─→ Identify special handling needed
+        ├─ Idioms to adapt
+        ├─ Cultural refs to localize
+        ├─ Technical terms to preserve
+        └─ Humor/tone to protect
+            │
+            ↓
+
+STEP 5: TRANSLATE
+─────────────────
+    │
+    ├─→ Focus on MEANING, not words
+    │   └─ "Money on table" ≠ literal
+    │       ├─ Turkish: "Gözünüzün önündeki fırsatlar"
+    │       └─ Meaning: Opportunities in front of you
+    │
+    ├─→ Preserve tone and emotion
+    │   ├─ Professional → Professional
+    │   ├─ Casual → Casual
+    │   ├─ Humorous → Humorous (or note why it fails)
+    │   └─ Technical → Clear and precise
+    │
+    ├─→ Keep format intact
+    │   ├─ Headers stay headers
+    │   ├─ Lists stay lists
+    │   ├─ Paragraphs stay paragraphs
+    │   ├─ Bold stays bold
+    │   └─ Code blocks untouched
+    │
+    ├─→ Don't add, don't omit
+    │   ├─ Never add information
+    │   ├─ Never remove information
+    │   └─ Trust original author
+    │
+    └─→ Make it read naturally
+        └─ Like native speaker wrote it originally
+            │
+            ↓
+
+STEP 6: QUALITY CONTROL (MANDATORY)
+────────────────────────────────────
+    │
+    ├─ [✓] Meaning = Original?
+    │      └─ Nothing added/removed?
+    │
+    ├─ [✓] Tone Match?
+    │      └─ Same emotion/intent?
+    │
+    ├─ [✓] Complete?
+    │      └─ All paragraphs/sections present?
+    │
+    ├─ [✓] No Additions?
+    │      └─ Translator invisible?
+    │
+    ├─ [✓] Format Intact?
+    │      └─ Headers, lists, bold, italics preserved?
+    │
+    ├─ [✓] Consistent Terminology?
+    │      └─ Same terms used same way throughout?
+    │
+    └─ [✓] Reads Naturally?
+        └─ Doesn't sound like a translation?
+           │
+           ↓
+
+STEP 7: OPTIONAL - LANGUAGE PAIR CHECKS
+────────────────────────────────────────
+(Apply if translation is complex, technical, or high-stakes)
+
+    For Turkish:
+    ├─ Case endings correct? (-i, -ı, -u, -ü)
+    ├─ Possessive suffixes correct?
+    ├─ Verb tenses correct?
+    └─ Word order natural?
+
+    For Spanish:
+    ├─ Gender agreement?
+    ├─ Verb conjugations?
+    ├─ Accent marks?
+    └─ Formal/informal consistent?
+
+    For French:
+    ├─ Gender agreement?
+    ├─ Subjunctive mood?
+    ├─ Accent marks?
+    └─ Formal/informal consistent?
+
+    For German:
+    ├─ Case system correct?
+    ├─ Articles match nouns?
+    ├─ Capitalization?
+    └─ Formal/informal consistent?
+            │
+            ↓
+
+STEP 8: DELIVER
+───────────────
+    │
+    ├─→ STANDARD OUTPUT (Default)
+    │   └─ Just the translation
+    │      (clean, ready-to-use)
+    │
+    └─→ DETAILED OUTPUT (If requested)
+        ├─ Translation
+        ├─ Text category
+        ├─ Formality level
+        ├─ Special translation decisions
+        ├─ Why you made certain choices
+        ├─ Alternatives (if applicable)
+        └─ Cultural adaptation notes
+            │
+            ↓
+
+DECISION TREE: When Quality Check Fails
+═══════════════════════════════════════
+
+Does meaning match exactly?
+├─ NO → Revise translation
+└─ YES → Continue
+
+Does tone match?
+├─ NO → Check if intentional
+│       ├─ YES (e.g., humor can't translate) → Note it
+│       └─ NO → Revise
+└─ YES → Continue
+
+Is format intact?
+├─ NO → Fix headers, lists, emphasis
+└─ YES → Continue
+
+Is terminology consistent?
+├─ NO → Standardize throughout
+└─ YES → Continue
+
+Does it read naturally?
+├─ NO → Rewrite more naturally
+└─ YES → ✅ PASS - Ready to deliver
+
+SPECIAL CASES DECISION TREE
+════════════════════════════
+
+Text contains idioms?
+├─ YES → Use references/special-cases.md
+│        Find meaning equivalent
+└─ NO → Continue
+
+Text contains humor/irony?
+├─ YES → Preserve effect, not words
+│        Use target language humor tools
+└─ NO → Continue
+
+Text contains cultural refs?
+├─ YES → Adapt, explain, or localize?
+│        Use decision tree from special-cases.md
+└─ NO → Continue
+
+Text contains numbers/measurements?
+├─ YES → Convert to target country format
+│        (dates, currency, measurements, times)
+└─ NO → Continue
+
+Text addresses reader directly?
+├─ YES → Decide: formal (siz/usted/vous/Sie) or informal (sen/tú/tu/du)
+│        Pick ONE and stick with it
+└─ NO → Use passive or impersonal
+
+FEEDBACK LOOP
+═════════════
+
+After delivery:
+
+    Collect Feedback
+         ↓
+    Found issues?
+    ├─ YES → Document
+    │        Update rules/examples?
+    │        └─ YES → Improve skill
+    │        └─ NO → Note for next review
+    │
+    └─ NO → Great! Skill working well
+
+QUALITY METRICS TRACKING
+═════════════════════════
+
+Monthly review:
+✓ Meaning preservation: 100% target
+✓ Naturalness: 95%+ target
+✓ Tone match: 95%+ target
+✓ Terminology consistency: 100% target
+✓ Format integrity: 100% target
+✓ Grammar accuracy: 100% target
+✓ Tone match: 95%+ target
+
+Low score? → Find pattern → Update rules → Test with new translations
