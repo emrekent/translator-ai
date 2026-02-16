@@ -439,3 +439,223 @@ If you swapped original and translation, would someone notice it's the "wrong" w
 
 ---
 
+---
+
+# French Translation Examples (English-French)
+
+## Example 1: Marketing Copy (English-French)
+
+### Original Text
+```
+"Stop leaving money on the table. Our AI-powered tool finds hidden revenue opportunities your competitors are missing."
+```
+
+### ✅ Translation
+```
+"Ne laissez pas d'argent sur la table. Notre solution IA découvre les opportunités de revenus que vos concurrents manquent."
+```
+
+**Translation Decisions:**
+- "Stop leaving" → "Ne laissez pas" (imperative VOUS form - formal)
+- "AI-powered" → "solution IA" (more natural in French)
+- Register: VOUS form (formal, professional)
+- Idiom: French also has "laisser d'argent sur la table"
+
+### Quality Check ✓
+- [x] Meaning preserved (100%)
+- [x] Tone: Urgent, competitive
+- [x] Idiom adapted naturally
+- [x] Proper formal register (VOUS)
+- [x] Reads like native French speaker
+
+---
+
+## Example 2: Technical Documentation (English-French)
+
+### Original Text
+```
+"To configure the webhook, navigate to Settings > Integrations > Webhooks. Click 'Add New Webhook' and paste your endpoint URL."
+```
+
+### ✅ Translation
+```
+"Pour configurer le webhook, accédez à Paramètres > Intégrations > Webhooks. Cliquez sur « Ajouter un webhook » et collez votre URL d'endpoint."
+```
+
+**Translation Decisions:**
+- "Navigate to" → "accédez à" (formal VOUS form)
+- "Settings" → "Paramètres" (standard French UI term)
+- "Click" → "Cliquez" (VOUS form)
+- French quotes: « » (different from English)
+
+### Quality Check ✓
+- [x] Technical accuracy (100%)
+- [x] Format preserved (menu paths exact)
+- [x] Terminology consistent
+- [x] Proper formal register (VOUS)
+
+---
+
+## Example 3: Casual/Blog Writing (English-French)
+
+### Original Text
+```
+"Look, I get it. You've tried everything. The diets, the apps, the 5 AM workouts that lasted exactly three days."
+```
+
+### ✅ Translation
+```
+"Écoute, je comprends. Tu as essayé tout. Les régimes, les applis, les entraînements de 5 du matin qui ont duré exactement trois jours."
+```
+
+**Translation Decisions:**
+- "Look" → "Écoute" (informal TU form, conversational)
+- "I get it" → "Je comprends" (understanding, empathetic)
+- "You've tried" → "Tu as essayé" (informal TU form, not VOUS)
+- Register: TU form (informal, casual)
+
+### Quality Check ✓
+- [x] Tone preserved (friendly, understanding)
+- [x] Informality maintained (TU form)
+- [x] Humor intact (3-day exaggeration)
+- [x] Natural flow in French
+
+---
+
+## Example 4: Humor & Irony (English-French)
+
+### Original Text
+```
+"'Just one more episode' I said, 4 hours ago, as I started my 47th rewatch of The Office."
+```
+
+### ✅ Translation
+```
+"« Un épisode de plus », disais-je il y a 4 heures, quand j'ai commencé mon 47e visionnage de The Office."
+```
+
+**Translation Decisions:**
+- Quote: "Un épisode de plus" (natural French equivalent)
+- Time: "il y a 4 heures" (4 hours ago, natural)
+- 47th: "47e visionnage" (47th viewing)
+- Irony preserved: 1 episode claimed → 47 watches reality
+
+### Quality Check ✓
+- [x] Irony preserved (1 vs 47)
+- [x] Humor maintained (self-deprecating)
+- [x] Effect intact (joke lands in French)
+- [x] Meaning 100% preserved
+
+---
+
+---
+
+# German Translation Examples (English-German)
+
+## Example 1: Marketing Copy (English-German)
+
+### Original Text
+```
+"Stop leaving money on the table. Our AI-powered tool finds hidden revenue opportunities your competitors are missing."
+```
+
+### ✅ Translation
+```
+"Hören Sie auf, Geld auf dem Tisch zu lassen. Unser KI-gestütztes Tool findet verborgene Umsatzmöglichkeiten, die Ihre Konkurrenten übersehen."
+```
+
+**Translation Decisions:**
+- "Stop leaving" → "Hören Sie auf... zu lassen" (imperative SIE form - formal)
+- "AI-powered" → "KI-gestütztes" (KI = Künstliche Intelligenz, standard)
+- Register: SIE form (formal, professional)
+- Idiom: German also has "Geld auf dem Tisch" idiom!
+
+### Quality Check ✓
+- [x] Meaning preserved (100%)
+- [x] Tone: Urgent, competitive
+- [x] Proper case agreement (accusative "Geld")
+- [x] Professional register (SIE)
+- [x] Reads naturally
+
+---
+
+## Example 2: Technical Documentation (English-German)
+
+### Original Text
+```
+"To configure the webhook, navigate to Settings > Integrations > Webhooks. Click 'Add New Webhook' and paste your endpoint URL."
+```
+
+### ✅ Translation
+```
+"Um den Webhook zu konfigurieren, navigieren Sie zu Einstellungen > Integrationen > Webhooks. Klicken Sie auf „Neuen Webhook hinzufügen" und fügen Sie Ihre Endpoint-URL ein."
+```
+
+**Translation Decisions:**
+- Case: "den Webhook" (accusative case)
+- "Settings" → "Einstellungen" (standard German UI term)
+- "endpoint URL" → "Endpoint-URL" (hyphenated compound)
+- German capitals all nouns: Einstellungen, Integrationen
+
+### Quality Check ✓
+- [x] Technical accuracy (100%)
+- [x] Case agreement perfect
+- [x] Proper capitalization (German nouns)
+- [x] Format preserved
+
+---
+
+## Example 3: Casual/Blog Writing (English-German)
+
+### Original Text
+```
+"Look, I get it. You've tried everything. The diets, the apps, the 5 AM workouts that lasted exactly three days."
+```
+
+### ✅ Translation
+```
+"Schau, ich verstehe es. Du hast alles versucht. Die Diäten, die Apps, die 5-Uhr-Morgen-Trainings, die genau drei Tage hielten."
+```
+
+**Translation Decisions:**
+- "Look" → "Schau" (informal DU form, conversational)
+- "You've tried" → "Du hast versucht" (informal DU form, not SIE)
+- "5 AM workouts" → "5-Uhr-Morgen-Trainings" (German loves compounds!)
+- Register: DU form (informal, conversational)
+
+### Quality Check ✓
+- [x] Tone preserved (friendly, understanding)
+- [x] Informality maintained (DU form)
+- [x] Humor intact (3-day exaggeration)
+- [x] German compounds natural
+- [x] All nouns capitalized (German rule)
+
+---
+
+## Example 4: Humor & Irony (English-German)
+
+### Original Text
+```
+"'Just one more episode' I said, 4 hours ago, as I started my 47th rewatch of The Office."
+```
+
+### ✅ Translation
+```
+"„Nur noch eine Episode", sagte ich vor 4 Stunden, als ich mein 47. Rewatch von The Office anfing."
+```
+
+**Translation Decisions:**
+- Quote: "Nur noch eine Episode" (natural German equivalent)
+- German quotes: „ " (different from English)
+- Time: "vor 4 Stunden" (4 hours ago, natural)
+- Irony preserved: 1 episode claimed → 47 watches reality
+
+### Quality Check ✓
+- [x] Irony preserved (1 vs 47)
+- [x] Humor maintained (self-deprecating)
+- [x] Effect intact (joke lands in German)
+- [x] Meaning 100% preserved
+- [x] Proper German punctuation
+
+---
+
