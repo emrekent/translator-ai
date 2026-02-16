@@ -268,3 +268,174 @@ Would a native speaker of target language think "this was originally written in 
 If you swapped original and translation, would someone notice it's the "wrong" way?
 
 **If you pass all four tests = Good translation.**
+
+---
+
+---
+
+# Spanish Translation Examples (English-Spanish)
+
+## Example 1: Marketing Copy (English-Spanish)
+
+### Original Text
+```
+"Stop leaving money on the table. Our AI-powered tool finds hidden revenue opportunities your competitors are missing."
+```
+
+### Analysis
+- **Category:** Marketing/Persuasive
+- **Tone:** Urgent, confident, competitive
+- **Target Audience:** Business decision-makers
+- **Key Phrase:** "money on the table" (no literal Spanish equivalent)
+- **Challenge:** Maintain persuasive urgency while adapting idiom
+
+---
+
+### ✅ Translation
+
+```
+"Deja de perder dinero. Nuestra herramienta de IA descubre oportunidades de ingresos que tus competidores no ven."
+```
+
+**Translation Decisions:**
+- "Stop leaving money on table" → "Deja de perder dinero" (Spanish idiom: stop losing money)
+- "AI-powered" → "herramienta de IA" (industry standard in Spanish tech)
+- "hidden opportunities" → "oportunidades que... no ven" (emphasizes competitor blindness)
+- Imperative form uses "tú" (informal, appropriate for direct marketing)
+
+---
+
+### Quality Check ✓
+- [x] Meaning preserved (all key points)
+- [x] Tone: Urgent, competitive maintained
+- [x] Idiom adapted naturally ("Deja de perder dinero")
+- [x] Reads like native Spanish speaker
+- [x] Punchier, more persuasive than literal
+- [x] Consistent terminology
+
+---
+
+## Example 2: Technical Documentation (English-Spanish)
+
+### Original Text
+```
+"To configure the webhook, navigate to Settings > Integrations > Webhooks. Click 'Add New Webhook' and paste your endpoint URL."
+```
+
+### Analysis
+- **Category:** Technical/Documentation
+- **Tone:** Clear, instructional, precise
+- **Target Audience:** Developers
+- **Technical Terms:** webhook, endpoint, URL (preserve in English)
+- **Formality:** Use tú (developers prefer informal addressing)
+
+---
+
+### ✅ Translation
+
+```
+"Para configurar el webhook, accede a Settings > Integrations > Webhooks. Haz clic en 'Agregar nuevo webhook' y pega tu URL de endpoint."
+```
+
+**Translation Decisions:**
+- "Configure" → "configurar" (standard technical term)
+- "Navigate to" → "accede a" (more natural than "navega a")
+- Menu path → Kept exactly as-is (user sees English in UI)
+- "Click" → "Haz clic" (standard Spanish)
+- "Paste" → "pega" (informal tú form)
+- "Add New Webhook" → "Agregar nuevo webhook" (translated button label)
+
+---
+
+### Quality Check ✓
+- [x] Technical accuracy 100%
+- [x] Format preserved (menu paths exact)
+- [x] Terminology consistent (webhook, endpoint, URL preserved)
+- [x] Instructions clear and precise
+- [x] Appropriate formality level (tú for developers)
+
+---
+
+## Example 3: Casual/Blog Writing (English-Spanish)
+
+### Original Text
+```
+"Look, I get it. You've tried everything. The diets, the apps, the 5 AM workouts that lasted exactly three days."
+```
+
+### Analysis
+- **Category:** Casual/Personal narrative
+- **Tone:** Understanding, empathetic, humorous
+- **Target Audience:** General readers
+- **Key Challenge:** Preserve informality and self-aware humor
+- **Register:** Conversational, not formal
+
+---
+
+### ✅ Translation
+
+```
+"Mira, lo entiendo. Lo has intentado todo. Las dietas, las apps, los entrenamientos de las 5 de la mañana que duraron exactamente tres días."
+```
+
+**Translation Decisions:**
+- "Look" → "Mira" (attention-getting, conversational)
+- "I get it" → "lo entiendo" (empathetic, understanding)
+- "You've tried everything" → "Lo has intentado todo" (tú form, informal)
+- "apps" → "apps" (kept in English, widely understood)
+- "5 AM workouts" → "entrenamientos de las 5 de la mañana" (natural Spanish time reference)
+- "lasted exactly three days" → Kept literal for emphasis on humor
+
+---
+
+### Quality Check ✓
+- [x] Tone preserved (friendly, understanding)
+- [x] Informality maintained (conversational)
+- [x] Humor intact (self-aware exaggeration of "three days")
+- [x] Natural flow in Spanish
+- [x] All meaning preserved
+- [x] Author's personality comes through
+
+---
+
+## Example 4: Humor & Irony (English-Spanish)
+
+### Original Text
+```
+"'Just one more episode' I said, 4 hours ago, as I started my 47th rewatch of The Office."
+```
+
+### Analysis
+- **Category:** Creative/Entertainment with humor
+- **Tone:** Self-deprecating, ironic
+- **Core Joke:** Contrast between intention (1 episode) and reality (47 rewatches)
+- **Challenge:** Preserve irony so joke lands in Spanish
+
+---
+
+### ✅ Translation
+
+```
+"'Un capítulo más' dije, hace 4 horas, mientras empezaba mi 47ª vez viendo The Office."
+```
+
+**Translation Decisions:**
+- Quote → Translate to Spanish to preserve natural reading
+- "'Un capítulo más'" = natural Spanish for "one more episode"
+- "4 hours ago" → "hace 4 horas" (natural Spanish)
+- "47th rewatch" → "47ª vez viendo" (the 47th time watching)
+- "The Office" → Kept in English (show title, universally understood)
+- Irony remains crystal clear: 1 episode claimed → 47 watches reality
+
+---
+
+### Quality Check ✓
+- [x] Irony preserved (1 episode vs 47 times)
+- [x] Humor maintained (self-deprecating)
+- [x] Effect intact (joke lands)
+- [x] Meaning 100% preserved
+- [x] Self-aware tone maintained
+- [x] Universal streaming culture reference works
+
+---
+
