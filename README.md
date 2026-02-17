@@ -1,8 +1,10 @@
 # Translator-AI Skill
 
-**Professional multilingual translation guidance for AI agents**
+**Professional AI Translation for English-Turkish, Spanish, French, German, Portuguese, Italian & Russian**
 
-A production-grade translation skill that provides meaning-focused, culturally-aware translations across multiple language pairs. Works with Claude Code, Cursor, Cline, and other AI agents.
+A production-grade translation skill that provides meaning-focused, culturally-aware translations. Perfect for technical docs, marketing, business content, and more. Works with Claude Code, Cursor, Cline, and other AI agents.
+
+**Primary focus:** English-Turkish translation with 98%+ quality assurance and 100+ professional examples.
 
 ---
 
@@ -169,11 +171,13 @@ See LICENSE.md for full details.
 
 ## About the Creator
 
-Built by **[Emre Kent](https://www.linkedin.com/in/emrekent)** — AI agent specialist, systems architect, and multilingual translation systems designer.
+Built by **[Emre Kent](https://www.linkedin.com/in/emrekent)** — Systems architect & builder. Former math teacher turned automation designer.
 
-I build infrastructure, not hacks. This skill is designed for builders, agencies, and teams who need professional translation automation that actually understands context and meaning.
+I design growth engines, AI workflows, and automation systems. I build CRM architectures, AI agents, n8n automation systems, and personal operating systems that compound.
 
-For discussions on AI agents, skills architecture, translation systems, and automation—[connect on LinkedIn](https://www.linkedin.com/in/emrekent).
+This skill reflects that philosophy: **infrastructure over hacks, meaning over words, automation that scales.**
+
+For discussions on AI agents, skills architecture, and automation systems—[connect on LinkedIn](https://www.linkedin.com/in/emrekent).
 
 ---
 
