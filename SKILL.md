@@ -163,7 +163,11 @@ Translate to Turkish (formal, detailed, no cultural adaptation): [Text]
 - **references/special-cases.md** - Idioms, humor, cultural refs, numbers, addressing
 - **references/quality-checklist.md** - QC framework for all language pairs
 - **references/examples.md** - Real-world examples with detailed analysis
+- **references/examples-100-complete.md** - 100 comprehensive real-world scenarios (English + Turkish), professional grade, skills.sh-ready
 - **references/language-pair-quality-matrix.md** - Current status of each pair
+- **references/grammar-comparison.md** - Grammar structures across all 7 languages
+- **references/false-friends.md** - Words with misleading similarities across languages
+- **references/common-mistakes.md** - Critical translation errors to avoid per language
 - **assets/workflow-diagram.txt** - Visual workflow
 
 ## Maintenance & Updates

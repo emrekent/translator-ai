@@ -91,7 +91,12 @@ Translate to German: "Your text"
 - **references/special-cases.md** - Idioms, humor, cultural references
 - **references/quality-checklist.md** - Quality control framework
 - **references/examples.md** - 4 real-world examples with analysis
+- **references/examples-100-complete.md** - 100 comprehensive professional examples (English + Turkish) - skills.sh-ready
+- **references/grammar-comparison.md** - Grammar structures across all 7 languages
+- **references/false-friends.md** - Words with misleading similarities across languages
+- **references/common-mistakes.md** - Critical translation errors to avoid per language
 - **references/language-pair-quality-matrix.md** - Status and roadmap
+- **COMPREHENSIVE_TEST_SUITE.md** - 35 comprehensive tests (5 per language, 100% passing)
 - **assets/workflow-diagram.txt** - Visual workflow diagrams
 - **LICENSE.md** - CC-BY-4.0 License
 - **INSTALLATION.md** - Detailed install & usage guide
@@ -185,6 +190,10 @@ See **references/** for:
 - **special-cases.md** - How to handle idioms, humor, cultural refs
 - **quality-checklist.md** - Quality control framework
 - **examples.md** - 4 real-world examples with analysis
+- **examples-100-complete.md** - 100 professional examples (English + Turkish) - comprehensive scenarios
+- **grammar-comparison.md** - Grammar structures compared across all 7 languages
+- **false-friends.md** - Words with misleading translations (embarrassed/pregnant, etc.)
+- **common-mistakes.md** - Critical errors to avoid per language
 - **language-pair-quality-matrix.md** - Language pair roadmap
 
 ---
@@ -193,9 +202,11 @@ See **references/** for:
 
 1. **Install the skill** - Follow INSTALLATION.md
 2. **Try a translation** - `Translate to Turkish: "Your text"`
-3. **Read the examples** - See references/examples.md
-4. **Explore the rules** - See references/translation-rules.md
-5. **Check quality** - See references/quality-checklist.md
+3. **Read the 100 examples** - See references/examples-100-complete.md for comprehensive scenarios
+4. **Explore basic examples** - See references/examples.md for quick 4 examples
+5. **Explore the rules** - See references/translation-rules.md
+6. **Check quality** - See references/quality-checklist.md
+7. **Study language comparisons** - See references/grammar-comparison.md
 
 ---
 
