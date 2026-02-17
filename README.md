@@ -167,23 +167,49 @@ See LICENSE.md for full details.
 
 ---
 
+## About the Creator
+
+Built by **[Emre Kent](https://www.linkedin.com/in/emrekent)** — AI agent specialist, systems architect, and multilingual translation systems designer.
+
+I build infrastructure, not hacks. This skill is designed for builders, agencies, and teams who need professional translation automation that actually understands context and meaning.
+
+For discussions on AI agents, skills architecture, translation systems, and automation—[connect on LinkedIn](https://www.linkedin.com/in/emrekent).
+
+---
+
 ## Credits
 
 **Created by:** Emre Kent
 **Version:** 2.0
 **Created:** February 2026
 **License:** CC-BY-4.0
+**Repository:** [github.com/emrekent/translator-ai](https://github.com/emrekent/translator-ai)
+
+---
+
+## Questions & Community
+
+Have questions? Found a bug? Got a suggestion?
+
+**Open a [Discussion](https://github.com/emrekent/translator-ai/discussions)** — No account noise, just direct feedback.
+
+This is where:
+- You ask questions
+- I answer
+- We learn together
+- Improvements happen
 
 ---
 
 ## Getting Help
+
+**Have a question?** Open a [Discussion](https://github.com/emrekent/translator-ai/discussions) on GitHub.
 
 See **INSTALLATION.md** for:
 - Detailed installation instructions
 - Usage examples for each agent type
 - Troubleshooting guide
 - Performance & quality metrics
-- Getting help resources
 
 See **references/** for:
 - **translation-rules.md** - Complete translation rules
