@@ -1,199 +1,138 @@
 ---
 name: translator-ai
-description: Professional AI-powered translation skill for English-Turkish, Spanish, French, German, Portuguese, Italian, and Russian. Meaning-focused, culturally-aware translations with 98%+ quality assurance. Perfect for technical docs, marketing, business content. Features 100 real-world examples, 11-point quality checklist, and context-aware rules. Not word-for-word; produces natural, native-quality translations that preserve tone and intent.
-version: 2.0
+description: This skill should be used when the user asks to "translate to Turkish", "translate to Spanish", "translate to French", "translate to German", "localize product copy", "adapt an idiom", "review a translation", or "explain translation choices while preserving tone and meaning."
+version: 2.1
 author: Emre Kent
 license: CC-BY-4.0
-language_pairs:
-  - English-Turkish (primary)
-  - English-Spanish (framework ready)
-  - English-French (framework ready)
-  - English-German (framework ready)
-compatibility: claude-code, cursor, cline, copilot, local-ai
+primary_language_pair: English-Turkish
+secondary_reference_pairs:
+  - English-Spanish
+  - English-French
+  - English-German
+  - English-Portuguese
+  - English-Italian
+  - English-Russian
 ---
 
 # Translator AI Skill
 
-Professional multilingual translation guidance system designed for meaning-focused, high-quality translations across multiple language pairs.
+Use this skill to produce meaning-first translations, translation rewrites, and localization passes for product copy, technical documentation, UI strings, emails, and general business writing.
 
-## When to Use This Skill
+Treat English to Turkish as the highest-confidence path in this repository. Treat English to Spanish, French, and German as structured secondary coverage with starter rules and examples. Treat Portuguese, Italian, and Russian material as exploratory reference support until native-speaker review is documented.
 
-Activate this skill when:
-- User asks "translate X to [language]"
-- User needs professional translation guidance
-- User wants to understand translation decisions
-- User seeks idiom or cultural adaptation help
-- User needs quality-checked translations
-- User is building multilingual content
+## Quick Proof
 
-## Quick Start Workflow
-
-```
-1. UNDERSTAND THE TEXT
-   └── Read fully, identify tone, purpose, audience
-
-2. CLASSIFY
-   └── Determine category: Technical / Marketing / Casual / Formal / Creative
-
-3. IDENTIFY LANGUAGE PAIR & RULES
-   └── Load appropriate rules from references/translation-rules.md
-
-4. TRANSLATE WITH MEANING
-   └── Focus on meaning, tone, cultural fit—not word-for-word
-
-5. QUALITY CHECK
-   └── Apply checklist from references/quality-checklist.md
-
-6. DELIVER WITH NOTES
-   └── Provide translation + decisions (if detailed output requested)
+```text
+English: Stop leaving money on the table.
+Literal Turkish: Masada para bırakmayı durdurun.
+Meaning-first Turkish: Gözünüzün önündeki fırsatları kaçırmayın.
 ```
 
-## Core Principles (All Language Pairs)
+Use that standard for every pair: preserve the message and the effect, not the surface wording.
 
-1. **Meaning Over Words** - Translate meaning and intent, not words
-2. **Natural Output** - Should read like native speaker wrote it originally
-3. **Tone Preservation** - Match original tone (formal/casual/humorous/technical)
-4. **Format Integrity** - Preserve structure (headers, lists, paragraphs, code)
-5. **No Additions** - Never add information not in original
-6. **No Omissions** - Never remove information from original
+## Use This Skill For
 
-## Language Pair Quality Assurance
+- Translate English text while preserving tone, intent, and formatting.
+- Review an existing translation and make it sound native.
+- Localize marketing copy or UI text for a target audience.
+- Explain non-obvious translation choices when detailed output is requested.
+- Adapt idioms, humor, formality, and culture-bound phrasing.
 
-### English-Turkish (Primary)
-- **Status:** Production-ready v2.0
-- **Coverage:** 6 primary rules + 4 secondary rules + 5 special case categories
-- **Examples:** 4 real-world examples with full analysis
-- **Quality Gates:** 11-point comprehensive checklist
-- **Testing:** Validated against real use cases
-- **Confidence Level:** ⭐⭐⭐⭐⭐ Highest
+## Quick Prompt Patterns
 
-### English-Spanish / English-French / English-German (Framework Ready)
-- **Status:** Framework ready, culture-specific rules needed
-- **How to Maintain Quality:**
-  1. Use base rules from references/translation-rules.md
-  2. Apply culture-specific adaptations (in progress)
-  3. Add language-pair examples (in progress)
-  4. Validate against native speakers
-  5. Update references/ as quality improves
-
-## How We Ensure Consistent High Quality Across All Language Pairs
-
-### 1. **Shared Foundation**
-All language pairs use the same 6 core principles and workflow, ensuring consistency in approach.
-
-### 2. **Culture-Specific Layers**
-Each language pair gets specific rules for:
-- Grammar particularities
-- Idiomatic expressions
-- Cultural references
-- Formality levels
-- Common pitfalls
-
-### 3. **Progressive Quality Validation**
-```
-Level 1: Framework Rules (all pairs)
-  ↓
-Level 2: Language-Specific Guidance (being added)
-  ↓
-Level 3: Real Examples (being collected)
-  ↓
-Level 4: Quality Checklist (pair-specific)
-  ↓
-Level 5: Native Speaker Validation (ongoing)
+```text
+Translate to Turkish: [text]
+Translate to Turkish (detailed): [text]
+Localize this landing page copy for Turkish users: [text]
+Review this Turkish translation and make it sound native: [text]
+Translate to Spanish (draft): [text]
 ```
 
-### 4. **Quality Escalation for New Pairs**
-When adding a new language pair:
-1. Document base rules from references/
-2. Identify top 10 edge cases for that pair
-3. Create 3-5 real examples
-4. Build pair-specific quality checklist
-5. Test with native speakers
-6. Update skill with findings
-7. Document lessons learned
+## Scope and Confidence
 
-### 5. **Continuous Improvement**
-- Collect feedback from each use
-- Document unexpected edge cases
-- Update references/ with new insights
-- Version skill as improvements accumulate
-- Share updates across all agents
+| Language pair | Status | Guidance |
+| --- | --- | --- |
+| English to Turkish | Primary | Use full workflow and checklist. Best path for public-facing work in this repo. |
+| English to Spanish/French/German | Structured secondary | Use for drafts and guided localization. Recommend human review before publishing. |
+| English to Portuguese/Italian/Russian | Experimental reference | Use as a starting point only. Do not present as fully validated. |
 
-## Using This Skill
+## Workflow
 
-### Basic Usage (English-Turkish)
-Simply request translation:
-```
-Translate to Turkish: [Your English text]
-```
+1. Read the entire source before translating. Identify audience, purpose, and tone.
+2. Classify the text: technical, marketing, casual, formal, creative, or mixed.
+3. Choose the target language, desired formality, and output mode.
+4. Load reference material as needed:
+   - `references/translation-rules.md` for pair-level rules
+   - `references/special-cases.md` for idioms, humor, cultural references, and addressing
+   - `references/quality-checklist.md` for post-translation QA
+   - `references/examples.md` for worked examples
+   - `references/language-pair-quality-matrix.md` for current support level
+5. Translate for meaning first. Rewrite phrases when literal wording harms clarity, tone, or naturalness.
+6. Run the checklist before delivering. Verify meaning, tone, consistency, and formatting.
+7. Deliver clean output by default. Include notes only when requested or when ambiguity affects the result.
 
-### Detailed Output Mode
-Get translation + reasoning:
-```
-Translate to Turkish (detailed): [Your text]
-```
+## Output Modes
 
-### Specify Language Pair
-```
-Translate to Spanish: [Your English text]
-```
+### Standard Translation
 
-### Override Parameters
-```
-Translate to Turkish (formal, detailed, no cultural adaptation): [Text]
-```
+Return only the translated text with formatting preserved.
 
-## What You Get
+### Detailed Translation
 
-### Standard Output
-- Translated text in target language
-- Original formatting preserved
-- Clean, ready-to-use output
+Return the translation plus a short note covering:
 
-### Detailed Output (On Request)
-- Translation category classification
-- Addressing/formality decision
-- Special translation decisions + reasoning
-- Alternative options (if applicable)
-- Cultural adaptation notes
+- text category
+- formality choice
+- key idiom or terminology decisions
+- any ambiguity worth flagging
 
-## Inside This Skill
+### Review Mode
 
-- **references/translation-rules.md** - Complete rule system for all pairs
-- **references/special-cases.md** - Idioms, humor, cultural refs, numbers, addressing
-- **references/quality-checklist.md** - QC framework for all language pairs
-- **references/examples.md** - Real-world examples with detailed analysis
-- **references/examples-100-complete.md** - 100 comprehensive real-world scenarios (English + Turkish), professional grade, skills.sh-ready
-- **references/language-pair-quality-matrix.md** - Current status of each pair
-- **references/grammar-comparison.md** - Grammar structures across all 7 languages
-- **references/false-friends.md** - Words with misleading similarities across languages
-- **references/common-mistakes.md** - Critical translation errors to avoid per language
-- **assets/workflow-diagram.txt** - Visual workflow
+When the user provides an existing translation, do this:
 
-## Maintenance & Updates
+1. Evaluate meaning drift, awkward phrasing, tone mismatch, and consistency issues.
+2. Rewrite the translation.
+3. Summarize the fixes in a few bullets if requested.
 
-This skill is actively maintained. As translations improve:
-- New language pairs will be added with full quality assurance
-- Examples will be updated from real usage
-- Rules will be refined based on feedback
-- Quality metrics will be tracked
+### Localization Mode
 
-**Current Version:** 2.0 (English-Turkish production-ready)
-**Last Updated:** February 2026
-**Next Update:** When new language pair reaches production quality
+When the user asks to localize rather than translate literally, do this:
 
-## Ethics & Boundaries
+1. Preserve the message and CTA.
+2. Adapt idioms, references, and formality for the target audience.
+3. Avoid adding market claims or factual content not present in the source.
 
-- Never translate sensitive/private information without explicit approval
-- Flag potentially offensive or culturally inappropriate content
-- Refuse translations for harmful purposes
-- Maintain confidentiality of translated content
+## Core Rules
 
----
+- Prefer meaning over words.
+- Prefer native phrasing over mirrored English syntax.
+- Preserve the original tone unless the user asks for a rewrite.
+- Keep structure intact: headings, lists, tables, links, and code blocks.
+- Add nothing that is not in the source.
+- Omit nothing that changes meaning.
 
-**Want more details?** Each reference file contains deep guidance:
-- Need translation rules? See **references/translation-rules.md**
-- Handling idioms/humor? See **references/special-cases.md**
-- Quality checking? See **references/quality-checklist.md**
-- Real examples? See **references/examples.md**
-- Language pair status? See **references/language-pair-quality-matrix.md**
+## Human Review Triggers
+
+Escalate to human or native-speaker review when any of these apply:
+
+- public-facing copy in a non-primary language pair
+- legal, medical, financial, or contractual text
+- region-specific campaigns where variant choice matters
+- humor or wordplay that depends on local culture
+- certified translation requirements
+
+## Reference Files
+
+- `references/translation-rules.md` - Pair-specific rules and grammar guidance
+- `references/special-cases.md` - Idioms, humor, cultural references, numbers, and addressing
+- `references/quality-checklist.md` - Reusable QA checklist for translation and review work
+- `references/examples.md` - Reviewed Turkish examples plus starter examples for secondary pairs
+- `references/examples-100-complete.md` - Large English/Turkish prompt corpus for breadth and edge cases
+- `references/language-pair-quality-matrix.md` - Honest support matrix and upgrade path
+- `references/grammar-comparison.md` - Cross-language grammar notes
+- `references/false-friends.md` - High-risk misleading lookalikes
+- `references/common-mistakes.md` - Failure patterns to avoid
+
+## Delivery Standard
+
+Aim for translations that read like original writing in the target language, not like polished machine output. Keep the final answer concise, preserve the user's structure, and surface reasoning only when it materially helps.
