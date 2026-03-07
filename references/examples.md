@@ -1,6 +1,6 @@
 # Real-World Translation Examples
 
-Complete analysis of 4 different text types with reasoning and alternatives.
+English to Turkish is the reviewed primary set in this file. The later language sections are useful starter references, but they should not be treated as proof of full native-speaker validation.
 
 ---
 
@@ -122,14 +122,14 @@ Look, I get it. You've tried everything. The diets, the apps, the 5 AM workouts 
 ### ✅ GOOD Translation
 
 ```
-Bakın, anlıyorum. Her şeyi denediniz. Diyetler, uygulamalar, tam üç gün süren sabah 5 antrenmanları... Hepsinden geçtim, kullanılmamış spor salonu üyeliğim şahit.
+Bak, anlıyorum. Her şeyi denedin. Diyetler, uygulamalar, tam üç gün süren sabah 5 antrenmanları... Ben de aynı yollardan geçtim; kullanılmayan spor salonu üyeliğim hala duruyor.
 ```
 
 **Translation Decisions:**
-- "Look, I get it" → "Bakın, anlıyorum" (friendly, understanding)
-- "You've tried everything" → "Her şeyi denediniz" (but later becomes "sen" context)
-- "Been there, done that" → "Hepsinden geçtim" (Turkish idiom meaning same thing)
-- "Got the unused gym membership to prove it" → "kullanılmamış spor salonu üyeliğim şahit" (poetic, humorous)
+- "Look, I get it" → "Bak, anlıyorum" keeps the line conversational
+- "You've tried everything" → "Her şeyi denedin" keeps the informal "sen" voice consistent
+- "Been there, done that" → "Ben de aynı yollardan geçtim" sounds natural instead of performatively idiomatic
+- "Got the unused gym membership to prove it" → "kullanılmayan spor salonu üyeliğim hala duruyor" keeps the self-deprecating punch without sounding forced
 - Three dots (...) preserved (matches original style)
 - Rhythm matches original (three-part structure)
 
@@ -165,7 +165,7 @@ Bakın, anlıyorum. Her şeyi denediniz. Diyetler, uygulamalar, tam üç gün s�
 ### ❌ MEDIOCRE Translation (Loses Humor)
 
 ```
-"Son bir bölüm daha" dedim, 4 saat önce, The Office'in 47. kez baştan izlemesine başlarken.
+"Sadece bir bölüm daha" dedim 4 saat önce, The Office'i 47. kez yeniden izlemeye başlarken.
 ```
 
 **Problem:** Technically correct but humor lost. Reads like a simple statement, not humorous/ironic.
@@ -175,19 +175,19 @@ Bakın, anlıyorum. Her şeyi denediniz. Diyetler, uygulamalar, tam üç gün s�
 ### ✅ GOOD Translation (Preserves Humor)
 
 ```
-"Son bir bölüm daha" dedim, 4 saat önce. The Office'i 47. kez baştan izlemeye başlarken.
+"Sadece bir bölüm daha izlerim" dedim, 4 saat önce; The Office'i 47. kez en baştan açarken.
 ```
 
 **OR**
 
 ```
-"Son bölümü izleyeceğim" dedim 4 saat önce. The Office'in 47. turunu başlayırken. (Evet, 47'nci.)
+"Bir bölüm daha izleyip kapatırım" dedim 4 saat önce, The Office'i 47. kez en baştan açarken.
 ```
 
 **Why Better:**
-- Broken sentence structure mimics the irony
-- Unexpected time jump (4 hours later) creates humor
-- "47th rewatch" detail makes irony clear
+- Sentence stays grammatical instead of sounding machine-stitched
+- "Sadece" sharpens the contrast between intention and reality
+- "47. kez en baştan" makes the rewatch joke explicit
 - Maintains self-aware tone
 - Works across time and culture (streaming is universal)
 
@@ -197,21 +197,21 @@ Bakın, anlıyorum. Her şeyi denediniz. Diyetler, uygulamalar, tam üç gün s�
 
 **Version 1 (Literal but works):**
 ```
-"Son bir bölüm daha" dedim 4 saat önce. The Office'i 47. kez baştan izlemeye başlarken.
+"Sadece bir bölüm daha" dedim 4 saat önce, The Office'i 47. kez yeniden izlemeye başlarken.
 ```
 ✓ Simple, clear, humor intact through context
 
 **Version 2 (More emphasis):**
 ```
-"Sadece son bölüm" dedim, 4 saat önce. The Office'in 47. kez izlenmesini başlattığımda.
+"Bir bölüm daha izleyip kapatırım" dedim 4 saat önce, The Office'i 47. kez en baştan açarken.
 ```
-✓ "Sadece" (just) emphasizes irony
+✓ Intention vs. outcome is clearer
 
 **Version 3 (Localized):**
 ```
-"Son sezon daha izleyeyim" dedim, 4 saat önce. The Office'i 47. defa seyretmeye başlarken.
+"Son bir bölüm daha" dedim, 4 saat önce; The Office'i bir kez daha en baştan açarken.
 ```
-✓ If localizing to Turkish popular shows
+✓ Keeps the joke broad without over-explaining
 
 ---
 
@@ -270,6 +270,10 @@ If you swapped original and translation, would someone notice it's the "wrong" w
 **If you pass all four tests = Good translation.**
 
 ---
+
+## Validation Note for Secondary Languages
+
+The sections below are useful starter examples for Spanish, French, German, Portuguese, Italian, and Russian. Use them to guide draft output and catch obvious mistakes, but route public-facing copy through human review.
 
 ---
 
@@ -976,4 +980,3 @@ If you swapped original and translation, would someone notice it's the "wrong" w
 - [x] Irony: 1 episode claimed → 47 watches (hilarious!)
 
 ---
-

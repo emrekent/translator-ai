@@ -1,10 +1,12 @@
-# 100 Complete Translation Examples - Translator-AI Skill
+# 100 Translation Prompt Examples - translator-ai
 
 **Date:** February 17, 2026
-**Language Pairs:** 7 (Turkish focus, with framework for all languages)
+**Primary language pair:** English to Turkish
 **Examples:** 100 comprehensive real-world scenarios
 **Target Audience:** Technical professionals, agency operators, automation specialists
 **Tone:** Professional + Pragmatic + Solution-Oriented
+
+**Validation note:** This file is a large English/Turkish prompt corpus for breadth testing and idea generation. It is not evidence that every non-Turkish language pair in the repository is production-ready.
 
 ---
 
